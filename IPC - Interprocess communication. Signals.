@@ -1,0 +1,7 @@
+ Interprocess communication through shared memory is a concept where two or more process can access the common memory and communication is done via this shared memory where changes made by one process can be viewed by another process.
+IPC becomes essential for processes to exchange data and coordinate their activities. There are several methods of IPC, and one of them involves the use of signals.
+Signals are a form of IPC used in Unix-like operating systems to notify a process that a specific event has occurred. These events could include a request to terminate, an error, or some other condition.
+SIGTERM (15): This signal is used to request a process to terminate gracefully. The process has the opportunity to perform cleanup operations before shutting down. 	
+SIGKILL (9): This signal immediately terminates a process without giving it a chance to perform any cleanup. It is a forceful way to stop a process. 
+SIGINT (2): Sent by the terminal interrupt character (usually Ctrl+C) to interrupt a running process. 	
+SIGSEGV (11): Sent when a process tries to access restricted memory, resulting in a segmentation fault.
