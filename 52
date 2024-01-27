@@ -1,0 +1,6 @@
+52 - How DRAM works - transistor, gate and capacitor.
+DRAM dynamic RAM keeps data in capacitors capacitors must be constantly charged with electricity in order to keep data. And keep it capacitors is like a container for storing information.
+Dynamic ram consists of cells and each cell has its own components. 
+Capacitor capacitor is electric storage for the information.
+There is a gate when gate is open and we have charge source the capacitor will get charged. When we close the gate , source is block and if there is something in capacitor it will stay there.
+In order to write information to capacitor we open the gate and give voltage to the source and it will be stored inside the capacitor. We use gate like the door between source and capacitor. There are horizontal lines that called word line and there are vertical lines that called bit line.
