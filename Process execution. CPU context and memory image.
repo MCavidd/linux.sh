@@ -1,0 +1,4 @@
+When a process is executed in a computer system, it involves the coordination of various components, including the CPU, memory, and other resources. The concept of "CPU context" and "memory image" is essential in understanding how processes are managed during execution. CPU Context:
+The CPU context refers to the information stored in the CPU registers and other control registers that define the current state of a process being executed.
+This context includes the values of the program counter (PC), stack pointer, general-purpose registers, and other relevant control registers.
+The memory image of a process is the snapshot of its state in the computer's memory at a specific point in time during execution. It includes the contents of the program code, data, heap, and stack areas in the process's virtual address space.
