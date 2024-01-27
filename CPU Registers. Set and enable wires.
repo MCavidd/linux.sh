@@ -1,0 +1,8 @@
+CPU Registers. Set and enable wires.
+Registers are small rooms inside the CPU that using for storage then locations instructions and data there are some types of registers:
+Accumulator - it’s a general purpose register used for arithmetic and logical operations generally it used to store the result of many operations in the CPU.
+Instruction register tells to the control unit which instruction to perform doesn’t have enabled wire.
+Memory data register -  it holds the data that is read from or written to the memory.
+Memory address register - it holds the memory address where data is to be written or read from.
+Set Wires: In the context of digital circuits and CPU design, "set wires" typically refer to control signals or lines that are used to set the state of certain elements within the circuit. These elements might include flip-flops or latches that store binary values (0 or 1).
+Enable Wires: "Enable wires" are control lines in digital circuits that allow the activation or deactivation of specific elements. These wires are often used to enable or disable the functionality of certain components within a circuit.
