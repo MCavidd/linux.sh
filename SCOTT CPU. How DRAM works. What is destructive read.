@@ -1,0 +1,1 @@
+Destructive read means when we’re reading information. then information is lost and we need to restore it because when we read information it’s changed every reading operation is followed by write operation.
