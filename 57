@@ -1,0 +1,7 @@
+57 - Inside SCOTT CPU. Arithmetic Logic Unit, its inputs and output.
+Inside the CPU there are several components like control unit, arithmetic logic unit and registers.
+Control unit receives instruction from ram
+Arithmetic logic unit perform mathematical operations
+Registers are room inside the CPU for temporary storage
+Arithmetic logic unit perform logic operations and controlled by the control unit. Data bus is used to transfer data with the help of set and enable wires. And it can only sort one day at a time. 
+To perform boolean operations we need  two inputs. Control unit can tell ALU what to do with this inputs and it is based on ram instructions. One input comes from databus another from register. For each register we will have to set enable wires. There is a register that doesn’t have enabled wire it outputs to ALU not data bus.
