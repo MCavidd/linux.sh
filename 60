@@ -1,0 +1,6 @@
+60	- Memory Management Unit. PA/VA cache. TLB misses.
+We use cash for storing recent VA PA translation. So we won’t go to the page table each time. 
+TLB misses -  if we won’t translate VA and it is not in the cache in this case we will go to page table so if there is something that is not in the cache it is called TLB misses
+PA/VA caches, often referred to as Physical Address/Virtual Address caches, are used by the MMU to store recently used address translations. These caches help improve the efficiency of the address translation process by providing a faster way to retrieve frequently accessed mappings.
+This cache stores recently used mappings between virtual addresses and their corresponding physical addresses. Virtual Address (VA) Cache: Some MMUs may also have a cache for virtual addresses. In this case, the MMU stores recently used virtual addresses and their corresponding physical addresses.
+The Translation Lookaside Buffer (TLB) is a specific type of cache within the MMU that stores a subset of recently used virtual-to-physical address mappings. When the CPU generates a virtual address, the MMU first checks the TLB. If the virtual address is found in the TLB (a TLB hit), the corresponding physical address can be quickly retrieved
