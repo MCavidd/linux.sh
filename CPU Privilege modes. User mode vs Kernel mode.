@@ -1,0 +1,8 @@
+CPU privilege modes, also known as processor modes, refer to the different levels of privilege or access rights that the central processing unit (CPU) provides to software running on a computer system. These modes are commonly referred to as "User mode" and "Kernel mode.
+User mode is where regular applications run with limited privileges while kernel mode is reserved for the operating systems core functionality running with full privileges to manage hardware and critical system tasks the distinction enhanced system security and stability.
+User mod:
+ Privileges: Limited access to system resources. Restricted set of instructions. Cannot perform privileged operations directly.
+ Purpose: User mode is designed to provide a secure and isolated environment for applications. User-level processes are not allowed to directly manipulate critical system resources or execute privileged instructions.
+Kernel mod:
+Full access to system resources. Unrestricted set of instructions. Ability to execute privileged instructions. 
+Purpose: Kernel mode is used for executing the core operating system functions, managing system resources, and handling privileged operations. The kernel has the authority to control hardware, manage memory, and execute critical system tasks.
