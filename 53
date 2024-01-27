@@ -1,0 +1,9 @@
+53 - CPU Infrastructure - Instruction set.
+Instruction set -  Every CPU has its own instruction set and this instruction set contains of the sum list of the codes. Here are some example of the codes :
+ Load - is using generally for loading data from RAM.
+Add - add number. 
+Store - to store additional results in the RAM.
+Compare - to compare the numbers.
+Jump if -  jump to address based on the condition of compare.
+Out -  output data to the device.
+In - input data from device.
