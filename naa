@@ -1,7 +1,0 @@
-51 - CPU infrastructure CPU registers
-The CPU is a crucial component of the computer and that performs the majority of the processing tasks. it has several key elements.
-1)	arithmetic logic unit - the ALU is responsible for performing arithmetic and logical operations such as addition subtraction and comparison operations. 
-2)	Control Unit - the control unit manages and coordinates the activities of the CPU. It fetches instructions from memory decodes them and controls them the flow of data between the CPU and other parts of the computer.
-3)	Cache Memory – high speed cache memory is faster than the main memory. It locates inside the CPU to store frequently access data and instructions.
-4)	Bus Interface – Bus interface manage their communication between the CPU and other components such as input output devices using data buses and address buses.
- 
