@@ -1,0 +1,11 @@
+54 - Process management. Process abstraction. Process states.
+Process management is one of the jobs of operating system and its main idea is to create, schedule and terminate the processes. The operating system is responsible for managing processes to ensure efficiency and orderly execution of programs.
+Process Abstruction – provides isolation between different processing allowing them to run concurrently without interfering with each other.
+There are some key components of the process abstraction for example: Program counter - this keeps track of these addresses of the next instruction to be executed.
+Memory space -  A process has its own memory space which includes the code segment data segment and stack the isolation prevents one process from accessing the memory of another process.
+The process goes through different states during its execution life cycle.
+New the process is being created and its initial resource are being allocated.
+Ready the process is prepared to run and waiting for execution.
+Running the process is actively executing on the processor.
+Block waiting for event like reading data from disk because it takes some time to take data.
+Terminated where the process has finished the execution.
