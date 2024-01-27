@@ -1,0 +1,5 @@
+Inside the CPU there is a control bus that is provided to communication between the input output devices and RAM .This control bus has two wires which one of them is called set and another one is enable .  Set is using for writing if you want to store some data in the RAM.  Enable is using for reading if you want to retrieve some data from RAM. 
+There is a register that don’t have enabled wire it outputs to earlier not to data bus it’s ALU input register.
+Another register is instruction register tells to CU which instruction to perform doesn’t have enabled wire.
+Memory address register don’t have enabled wire because it directly outputs to ram their output is predefined.
+Instruction address is a civil hold address of the next instruction but this one has enabled wire.
