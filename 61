@@ -1,0 +1,11 @@
+61- System call. Trap instructions.
+Trap instruction
+User functions -  when we write our own functions.
+System functions when we reserve some memory we need to call operating system call (special functions that is available by operating system) . Operating system will initialize trap instruction.
+We will have user stack for user functions.
+When we make system calls CPU will make for to high privilege level. Switch to kernel stack to user. We need to save our context in kernel stack.
+Instruction description table each function from instruction set will have own address all system functions addresses will share in instruction description table.
+Trap instructions happen during system call program fault or terminates interrupts in block states.
+Context switch stock one process and take another one for execution. 
+A system call is a mechanism that allows a user-level program to request a service from the operating system's kernel. User-level applications typically run in a less privileged mode than the operating system kernel to ensure system integrity and security.
+The trap instruction (or software interrupt instruction) is used to transition from user mode to kernel mode. It is a special instruction that triggers an exception or interrupt.
