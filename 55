@@ -1,0 +1,7 @@
+55 - What is CPU data bus. CPU and RAM communication.
+Inside the computer we used the buses to communicate the CPU and other types of the components of computer the data bus is one of the types of bus data bus is for communication channel that transfer of data between the CPU and other components and mostly it’s used for communication with the RAM.
+For communication CPU and the RAM we use three main types of the bus. We use address bus, control bus and data bus. 
+Address bus is to store address of data in the RAM. In each address there is one information stored. We tell RAM which address do we want to work and generally these addresses consist of 1 and 0.
+Data bus is used for carrying the main content of the data that it can be instruction number or letter.
+Control bus - there are two control buses that used in communication with CPU and RAM. One of them is set and the other one is enable. Set is used for writing and enable is used for reading data from ram or into RAM.
+For example when we want to store data into ram we have to activate the set wire but when we want to retrieve the data from a ram we have to activate the enable wire.
