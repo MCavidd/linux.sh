@@ -1,0 +1,8 @@
+62- Memory Virtualization. Heap and Stack.
+Memory virtualization is a technique used in computer systems to abstract and manage physical memory in a way that allows each process to have its own isolated address space. Memory virtualization is a key feature of modern operating systems
+Virtual Memory: The concept of virtual memory allows a process to use more memory than is physically available by using a combination of RAM and disk space. 
+Memory Paging: •	Memory paging involves dividing the virtual address space and physical memory into fixed-size pages. The operating system swaps pages between physical memory and disk storage as needed.
+ Page Tables: •	Page tables are data structures used by the operating system to keep track of the mapping between virtual pages and physical pages.
+ Heap: •	The heap is a region of memory used for dynamic memory allocation. It is managed by the programmer and is typically used for storing data structures like linked lists, trees, and objects.
+ •	Memory allocation and deallocation in the heap are more manual and flexible. Programmers need to explicitly allocate memory (e.g., using functions like malloc in C) and release it when it is no longer needed (free in C).
+Stack: 	The stack is a region of memory that is used for the execution of functions or procedures. It stores local variables, function parameters, return addresses, and other function-related information. •	Memory allocation and deallocation in the stack are automatic and follow a Last-In-First-Out (LIFO) order.
