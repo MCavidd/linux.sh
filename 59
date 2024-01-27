@@ -1,0 +1,5 @@
+Memory Management. Paging and page table.
+Memory management is a critical aspect of operating systems, and paging, along with page tables, is a key technique used in virtual memory systems to manage the mapping between virtual addresses used by programs and physical addresses in the computer's memory.
+Paging is a memory management scheme that allows the operating system to use fixed-size blocks of memory called "pages" to store and manage data. Similarly, physical memory is divided into fixed-size blocks called "frames.
+Memory management unit use page table for translation. Table consists of two columns first one VA second one PA. VA is divided in memory chunks called page and PA is divided into chunks called frames . Each page is mapped to PA frame that is stored in Page table. Each process has its own page table.
+When a program accesses a virtual address, the page table is consulted to translate the virtual page number into a physical frame number
