@@ -1,0 +1,6 @@
+Scott CPU is a theoretical CPU for general using educational purpose . It has the same features as the real CPU and the working system is the same. Number guessing game using CPU instruction set. As we know the CPU instruction set is consist of different instructions and these instructions help the CPU to work and done all tasks easily .  For number guessing game we have to use 5 different instruction.
+Load number for example mine into CPU and stored in the RAM.
+In instruction to get number from user followed by keyboard addresses.
+Compare input with the number stored in the RAM.
+Jump if -  if the number is equal guessing number jump to another address otherwise continue.
+Out - out followed by monitor address and letters
