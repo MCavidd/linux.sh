@@ -1,0 +1,7 @@
+The Control Unit (CU) is a crucial part of the CPU responsible for coordinating and controlling the execution of instructions.
+It interprets program instructions, decodes them, and generates the necessary control signals to manage the operations of other CPU components.
+Fetch: The Control Unit retrieves the next instruction from memory based on the address stored in the Program Counter.
+Decode: The opcode of the instruction is decoded to determine the type of operation to be performed.
+Execute: The actual operation specified by the instruction is carried out by the Arithmetic Logic Unit (ALU) or other functional units.
+Store: The results of the operation may be stored in memory or in a register, depending on the instruction.
+Internally, the Control Unit operates using microinstructions, which are lower-level instructions that control the internal operations of the CPU.
