@@ -1,0 +1,7 @@
+Virtual Address Space (VAS) is a concept in memory management that refers to the range of virtual addresses available to a process in a computer system. Each process running on an operating system is given its own isolated virtual address space, allowing it to operate as if it has exclusive access to the entire memory of the system.
+Each memory has its own address. The way operating system provides abstraction for the memory is using virtual address space. Operating system will provide programs some memory space but this memory space will map to physical memory using virtual address space . Program will access virtual address space not directly memory instead.
+Fragmentation data spread across different sectors.
+Virtual address space maps all address to the real addresses in ram because in ram addresses are not in order they are spread.
+Virtual address space used for isolation and security.
+Virtual address space also used for programs are not mixed with each other. When we work directly with ram code of one program will access code of other program and this is securtiy issue.
+
